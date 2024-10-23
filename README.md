@@ -1,2 +1,2 @@
 # darkstore
-A commerce dedicated to people who loves dark itens
+A e-commerce dedicated to people who loves dark itens
