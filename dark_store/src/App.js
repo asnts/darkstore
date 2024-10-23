@@ -1,8 +1,18 @@
 import React from 'react'
+import Nav from './comp/nav'
+import {BrowserRouter} from 'react-router-dom'
 const App = () => {
   return (
 
-    <div> Dark Store  </div>
+    <> 
+    
+    <BrowserRouter>
+
+    <Nav />
+    
+    </BrowserRouter>
+    
+     </>
   
    )
 
