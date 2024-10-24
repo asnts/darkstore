@@ -16,6 +16,12 @@ const Nav = () => {
   </div>
    </div>
 
+   <div className='mid_header'>
+    <div className='logo'>
+      <img src='image/raven.png' alt='logo_raven' height='80px' width='80px'></img>
+    </div>
+   </div>
+
 
 
     </div>
