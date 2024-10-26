@@ -4,6 +4,7 @@ margin: 0;
 padding: 0;
 font-family: Open sans-serif;
 box-sizing: border-box;
+
 }
 
 .header
@@ -16,17 +17,43 @@ box-sizing: border-box;
 
 max-width: 100%;
 display: flex;
-padding: 15px 15px;
 background: #373737;
+justify-content: space-around;
 
 }
 
-.header .top_header .icon{
-    margin-left: 20px;
-    
-}
-
-.mid_header .logo .img{
+.header .top_header .search_box {
     display: flex;
-    
+    align-items: center;
+    justify-content: space-around;
 }
+
+.header .top_header .search_box input {
+
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+background: #F7F4F3;
+border: 1px solid #373737;
+border: none;
+width: 400px;
+height: 30px;
+
+
+}
+
+.header .top_header .search_box button {
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #F7F4F3;  
+    width: 30px;
+    height: 30px;
+    
+    }
+
+header .top_header .user {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
