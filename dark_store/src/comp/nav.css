@@ -26,34 +26,72 @@ justify-content: space-around;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .header .top_header .search_box input {
-
-border-top-left-radius: 5px;
-border-bottom-left-radius: 5px;
 background: #F7F4F3;
-border: 1px solid #373737;
-border: none;
+border: solid 1px black;
 width: 400px;
 height: 30px;
-
-
 }
+
 
 .header .top_header .search_box button {
-
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background: #F7F4F3;  
+  
+    background: #F7F4F3;
+    border: solid 1px black;
     width: 30px;
     height: 30px;
-    
+    cursor: pointer;
+
     }
 
-header .top_header .user {
+
+    .header .top_header .search_box button:hover{
+        background: #A7A7A9;
+    }
+
+    .header .top_header .login_btn {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+       
+    }
+
+.header .top_header .login_btn button {
+   border: none;
+   background: none;
+       
 }
+
+
+.header .top_header .login_btn button:hover {
+    text-decoration: underline;
+        
+ }
+
+
+ .header .mid_header {
+    height: 40px;
+    background: black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+ }
+
+ .header .mid_header button{
+    border: none;
+    background: none;
+    font-size: medium;
+    color: whitesmoke;
+ }
+
+ .header .mid_header button:hover{
+    text-decoration: underline;
+    color: #A7A7A9;
+ }
+
+
+
 
