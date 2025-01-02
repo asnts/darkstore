@@ -13,7 +13,7 @@ const App = () => {
 
     <Nav />
     <Carrousel />
-    <Card imgSrc="image/saia.jpg'"
+    <Card imgSrc="image/saia.jpg"
      imgAlt= "imagem card" 
      botaoCard="Adicionar a sacola" 
      descricao="Descrição do produto" />
