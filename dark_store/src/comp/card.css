@@ -1,0 +1,27 @@
+.containerCard{
+    width: 15rem;
+    border-radius: 1 rem;
+    box-shadow: 0 10px 8px black;
+    background-color: white;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.imagemCard{
+    width: 100%;
+
+}
+
+.botaoCard{
+    background-color: black;
+    color: white;
+    width: 90%;
+    border-radius: 5px;
+    
+}
+
+.descricaoCard{
+margin: 0.5 rem 5%;
+}
