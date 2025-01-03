@@ -15,6 +15,7 @@ const App = () => {
     <Carrousel />
     <Card imgSrc="image/saia.jpg"
      imgAlt= "imagem card" 
+     tituloProduto="Saia"
      botaoCard="Adicionar a sacola" 
      descricao="Descrição do produto" />
 
